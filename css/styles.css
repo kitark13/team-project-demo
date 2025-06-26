@@ -60,7 +60,14 @@ img {
 }
 
 .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .gallery-list-item {
+}
+
+.gallery-image {
+  border-radius: 32px;
 }
