@@ -71,3 +71,32 @@ img {
 .gallery-image {
   border-radius: 32px;
 }
+
+/* --- Tablet 768px --- */
+
+@media screen and (min-width: 768px) {
+  .gallery .container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .gallery {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .gallery-title {
+    margin-bottom: 24px;
+  }
+
+  .gallery-list {
+    gap: 22px;
+  }
+
+  .gallery-list-item {
+    width: calc((100% - 22px) / 2);
+  }
+}
